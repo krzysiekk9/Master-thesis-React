@@ -1,0 +1,25 @@
+.header{
+    background-color: #2995bcc0;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: fixed; */
+    border-bottom: 1px solid rgba(217, 217, 217, 0.492);
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    background-color: rgba(217, 217, 217, 0.817);
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: rgb(42, 42, 42);
+}
+.btn:hover{
+    cursor: pointer;
+    scale: 0.99;
+    opacity: 0.8;
+}
